@@ -1,7 +1,6 @@
-html{
-	width: 100%;
-	
-}
+html,body {
+  height: 100%; margin: 0px; padding: 0px; }
+
 
 * {
 	box-sizing: border-box;
@@ -18,6 +17,8 @@ html{
   , url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
 }
 
+
+
 @media (min-width: 900px) {
 /*nav選單*/
 	.navbar{
@@ -26,14 +27,21 @@ html{
 }
 }
 .navbar-nav {
-	margin-left: 400px;
+	margin-left: 40em;
 }
 
 /*section1*/
+.body {
+
+}
+
+
 .content {
-	margin-left: 140px;
-	margin-right: 140px;
-	position: relative;
+	 width:100%;
+  padding-right: 20em;
+  padding-left: 20em;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
